@@ -1,5 +1,8 @@
 # Employee Performance Dashboard
 
+[![Tests](https://github.com/brandirobinson0581-cpu/dsnd-dashboard-project/actions/workflows/test.yml/badge.svg)](https://github.com/brandirobinson0581-cpu/dsnd-dashboard-project/actions/workflows/test.yml)
+[![Lint](https://github.com/brandirobinson0581-cpu/dsnd-dashboard-project/actions/workflows/lint.yml/badge.svg)](https://github.com/brandirobinson0581-cpu/dsnd-dashboard-project/actions/workflows/lint.yml)
+
 This project turns employee performance-event data into an interactive dashboard for manufacturing managers. It combines a reusable SQLite query package, object-oriented FastHTML components, two data visualizations, and an existing recruitment-risk model.
 
 Managers can switch between employee and team views to review cumulative positive and negative events, performance notes, and predicted recruitment risk. The risk chart uses green, amber, and red to make lower, medium, and higher probabilities easy to distinguish.
