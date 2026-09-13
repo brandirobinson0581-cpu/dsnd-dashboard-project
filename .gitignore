@@ -11,6 +11,8 @@ __pycache__/
 build/
 develop-eggs/
 dist/
+!python-package/dist/
+!python-package/dist/*.tar.gz
 downloads/
 eggs/
 .eggs/
@@ -123,6 +125,7 @@ celerybeat.pid
 
 # Environments
 .env
+.sesskey
 .venv
 env/
 venv/
